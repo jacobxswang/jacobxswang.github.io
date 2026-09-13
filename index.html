@@ -7,8 +7,86 @@
 
   <base href="/xuesong_wang.github.io/">
 
-  <meta name="description" content="Personal academic homepage of Jacob (Xuesong) Wang. Research in diffusion-aided semantic communication and learning-augmented physical-layer network coding." />
+  <meta name="description" content="Personal academic homepage of Jacob (Xuesong) Wang, Lecturer at Taiyuan University of Technology. Research in semantic communications, generative AI for wireless systems, visible-light communications, and network coding." />
   <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- Brighter visual theme: overrides selected colors from assets/style.css -->
+  <style>
+    :root {
+      --bg: #f6f9fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --border: #dbe5f0;
+      --accent: #2457a7;
+      --accent-hover: #173f7a;
+      --tag-bg: #eaf3ff;
+      --tag-text: #2457a7;
+    }
+
+    body {
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, #eef6ff 0, transparent 34%),
+        linear-gradient(180deg, #fbfdff 0%, var(--bg) 100%);
+    }
+
+    .header {
+      padding-top: 34px;
+      padding-bottom: 18px;
+    }
+
+    .profile {
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px 24px;
+      box-shadow: 0 8px 24px rgba(36, 87, 167, 0.07);
+    }
+
+    h1, h2, h3 {
+      color: #17233a;
+    }
+
+    h2 {
+      border-bottom: 1px solid #e5edf6;
+      padding-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: 0 8px 24px rgba(31, 41, 55, 0.05);
+    }
+
+    .subtitle,
+    .pub-venue,
+    .footer {
+      color: var(--muted);
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      border: 1px solid #cfe2fb;
+    }
+
+    .pub {
+      border-color: #e4ebf3;
+    }
+
+    .footer {
+      border-top-color: #dfe7ef;
+    }
+  </style>
 </head>
 
 <body>
@@ -36,67 +114,84 @@
 
   <main class="container">
 
-    
     <section id="about" class="card">
       <h2>About</h2>
-        <p>
-          I am a Postdoctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen). <br>
-          My recent research focuses on semantic communication on images and videos, including receiver-driven protocols, end-to-end evaluation on physical/link layers, and security.
-          I also study AI for wireless and visible-light communications and network coding, using generative and multimodal models when they provide measurable gains under realistic system constraints.
-          Previously, I worked on DNN-based physical-layer network coding (PNC), with simulation and USRP implementation.
-        </p>
+      <p>
+        I am a Lecturer at Taiyuan University of Technology. <br>
+        Previously, I was a Postdoctoral Researcher at The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen).
+        My recent research focuses on semantic communication for images and videos, including receiver-driven protocols, end-to-end evaluation across physical and link layers, and communication security.
+        I also study AI for wireless and visible-light communications and network coding, using generative and multimodal models when they provide measurable gains under realistic system constraints.
+        Earlier, I worked on DNN-based physical-layer network coding (PNC), with both simulation and USRP implementation.
+      </p>
       <ul class="bullets">
-        <li><b>Current:</b> Postdoctoral Researcher, CUHK-Shenzhen (May 2024 – Present)</li>
+        <li><b>Current:</b> Lecturer, Taiyuan University of Technology (2026 – Present)</li>
+        <li><b>Postdoctoral Researcher:</b> CUHK-Shenzhen (May 2024 – 2026)</li>
         <li><b>Ph.D.:</b> Computer Applied Technology, University of Chinese Academy of Sciences (UCAS), 2017 – 2023</li>
         <li><b>B.Eng.:</b> Communication Engineering (Elite Program), Beijing Jiaotong University, 2013 – 2017</li>
       </ul>
     </section>
 
-    
     <section id="news" class="card">
       <h2>News</h2>
       <ul class="bullets">
+        <li><span class="tag">Dec. 2025</span> Paper presented at IEEE PIMRC 2026.</li>
         <li><span class="tag">Dec. 2025</span> Paper presented at IEEE GLOBECOM 2025.</li>
         <li><span class="tag">Dec. 2023</span> Paper presented at IEEE ICCC 2023.</li>
         <li><span class="tag">Jan. 2017</span> Research Assistant at the Institute of Network Coding (INC), The Chinese University of Hong Kong (CUHK).</li>
       </ul>
     </section>
 
-    
     <section id="service" class="card">
       <h2>Academic Service</h2>
-        <ul class="bullets">
-          <li><b>TPC member:</b> IEEE ICC 2026.</li>
-          <li><b>Peer reviewer (journals):</b> IEEE Transactions on Vehicular Technology (TVT); IEEE Transactions on Cognitive Communications and Networking (TCCN); IEEE Communications Letters; IEEE Wireless Communications Magazine; The Journal of Supercomputing.</li>
-          <li><b>Peer reviewer (conferences):</b> IEEE Globecom, IEEE WCNC, IEEE PIMRC, IEEE ICCC.</li>
-        </ul>
+      <ul class="bullets">
+        <li><b>TPC member:</b> IEEE ICC 2026; IEEE ICC 2027.</li>
+        <li><b>Peer reviewer (journals):</b> IEEE Transactions on Vehicular Technology (TVT); IEEE Transactions on Cognitive Communications and Networking (TCCN); IEEE Communications Letters; IEEE Wireless Communications Magazine; The Journal of Supercomputing.</li>
+        <li><b>Peer reviewer (conferences):</b> IEEE GLOBECOM, IEEE WCNC, IEEE PIMRC, IEEE ICCC.</li>
+      </ul>
     </section>
 
-    
     <section id="publications" class="card">
       <h2>Publications</h2>
-    
+
       <p class="subtitle" style="margin-top:0;">
         Full publication list:
         <a href="https://scholar.google.com/citations?user=w4NoLfkAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
       </p>
-    
+
       <h3 style="margin:14px 0 6px; font-size:16px;">Journal Articles</h3>
-    
+
+      <div class="pub">
+        <div class="pub-title">Diffusion-aided Task-oriented Semantic Communications with Model Inversion Attack</div>
+        <div class="pub-authors"><b>Xuesong Wang</b>, Mo Li, Xingyan Shi, Zhaoqian Liu, Shenghao Yang*</div>
+        <div class="pub-venue"><i>IEEE Transactions on Cognitive Communications and Networking</i>, 2026. <span class="tag" style="margin-left:8px;">Accepted</span></div>
+      </div>
+
       <div class="pub">
         <div class="pub-title">Implementation of DNN-based Physical-Layer Network Coding</div>
         <div class="pub-authors"><b>Xuesong Wang</b>, Lu Lu*</div>
         <div class="pub-venue"><i>IEEE Transactions on Vehicular Technology</i>, vol. 72, no. 6, pp. 7380–7394, 2023.</div>
       </div>
-    
+
       <div class="pub">
         <div class="pub-title">DNN-Based Physical-Layer Network Coding for Visible Light Communications</div>
         <div class="pub-authors"><b>Xuesong Wang</b>, Runxin Zhang, Xinyan Xie, Lu Lu*</div>
         <div class="pub-venue"><i>Photonics</i>, vol. 10, no. 1, p. 23, 2022.</div>
       </div>
-    
+
       <h3 style="margin:16px 0 6px; font-size:16px;">Conference &amp; Proceedings Papers</h3>
-    
+
+      <div class="pub">
+        <div class="pub-title">Tube-Structured Incremental Semantic HARQ for Generative Video Receivers</div>
+        <div class="pub-authors"><b>Xuesong Wang</b>*, Xinyan Xie, Runxin Zhang</div>
+        <div class="pub-venue"><i>IEEE GLOBECOM</i>, 2026. <span class="tag" style="margin-left:8px;">Accepted</span></div>
+      </div>
+
+      <div class="pub">
+        <div class="pub-title">Diffusion-Aided Bandwidth-Efficient Semantic Communication with Adaptive Requests</div>
+        <div class="pub-authors"><b>Xuesong Wang</b>*, Xinyan Xie, Mo Li, Zhaoqian Liu</div>
+        <div class="pub-venue"><i>IEEE PIMRC</i>, 2026.</div>
+      </div>
+
       <div class="pub">
         <div class="pub-title">Diffusion-Driven Task-Oriented Semantic Communication Amid Model Inversion Attacks</div>
         <div class="pub-authors">Mo Li, <b>Xuesong Wang</b>*, Xingyan Shi, Zhaoqian Liu</div>
@@ -108,86 +203,63 @@
         <div class="pub-authors">Xinyan Xie, <b>Xuesong Wang</b>, Xin Lai, Yongheng Wen, Fengrui Yang, Haoyang He, Lai Zhang, Dong Zhao*</div>
         <div class="pub-venue"><i>ICCC</i>, 2025.</div>
       </div>
-    
+
       <div class="pub">
         <div class="pub-title">DNN-Based Physical-Layer Network Coding with Low-Complexity Codec</div>
         <div class="pub-authors"><b>Xuesong Wang</b>, Wenhao Wang, Xinyan Xie, Qi Wenchao, He Yuna, Lu Lu*</div>
         <div class="pub-venue"><i>ICCC</i>, pp. 713–718, 2023.</div>
       </div>
-    
-      <h3 style="margin:16px 0 6px; font-size:16px;">Submitted Manuscripts / Preprints</h3>
-    
-      <div class="pub">
-        <div class="pub-title">Diffusion-aided Task-oriented Semantic Communications with Model Inversion Attack</div>
-        <div class="pub-authors"><b>Xuesong Wang</b>, Mo Li, Xingyan Shi, Zhaoqian Liu, Shenghao Yang*</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2506.19886" target="_blank" rel="noopener">arXiv:2506.19886</a>
-        </div>
-      </div>
-    
-      <div class="pub">
-        <div class="pub-title">Diffusion-Aided Bandwidth-Efficient Semantic Communication with Adaptive Requests</div>
-        <div class="pub-authors"><b>Xuesong Wang</b>*, Xinyan Xie, Mo Li, Zhaoqian Liu</div>
-        <div class="pub-links">
-          <a href="https://arxiv.org/abs/2510.26442" target="_blank" rel="noopener">arXiv:2510.26442</a>
-        </div>
-      </div>
-    
-      <!-- <p class="subtitle" style="margin-top:10px;">
+
+      <!--
+      <p class="subtitle" style="margin-top:10px;">
         <small>* indicates corresponding author.</small>
-      </p> -->
-    
+      </p>
+      -->
+
       <h3 style="margin:10px 0 6px; font-size:16px;">Patents</h3>
-    
+
       <div class="pub">
         <div class="pub-title">Patent CN111314325B (Granted)</div>
         <div class="pub-authors"><b>Wang, X.</b>; Zhan, Y.; Zhang, C.; Sun, Y.</div>
       </div>
-    
+
       <div class="pub">
         <div class="pub-title">Patent CN111935053B (Granted; Student first inventor)</div>
         <div class="pub-authors">Zhan, Y.; <b>Wang, X.</b>; Wu, S.; He, J.</div>
       </div>
-    
+
       <div class="pub">
         <div class="pub-title">Patent CN115499098B (Granted)</div>
         <div class="pub-authors"><b>Wang, X.</b>; Qi, W.; He, Y.; Lu, L.</div>
       </div>
     </section>
 
-
     <section id="projects" class="card">
       <h2>Projects</h2>
       <p class="subtitle" style="margin:0;">More details will be updated soon.</p>
     </section>
 
-    
     <section id="contact" class="card">
       <h2>Contact</h2>
       <p>
         <a href="mailto:wangxuesong17@mails.ucas.ac.cn">Email</a>
       </p>
       <p style="margin:6px 0 0; color: var(--muted);">
-        CUHK-Shenzhen
+        Taiyuan University of Technology
       </p>
     </section>
 
-    
   </main>
 
   <footer class="container footer">
     <p>© <span id="y"></span> Jacob (Xuesong) Wang <br>
     Last edited: <span id="lastEdited"></span>.</p>
   </footer>
-  
+
   <script>
     document.getElementById('y').innerText = new Date().getFullYear();
     const now = new Date();
     document.getElementById('lastEdited').innerText = now.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-  </script>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
